@@ -1,0 +1,26 @@
+﻿<Window x:Class="Lab7.AddAndChangeTeamWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7"
+        mc:Ignorable="d"
+        Closing="WindowClosing"
+        Title="AddAndChangeTeamWindow" Height="560" Width="400">
+    <Grid>
+        <Label Name="titleLabel" HorizontalContentAlignment="Center" Content="Label" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Width="356"/>
+        <Button Name="acceptButton" Click="ClickAccept" Content="Button" HorizontalAlignment="Left" Margin="159,372,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Название команды*" HorizontalAlignment="Left" Margin="21,126,0,0" VerticalAlignment="Top" Width="133"/>
+        <TextBox Name="tbCommandName" HorizontalAlignment="Left" Height="23" Margin="159,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="218"/>
+        <Label Content="Город" HorizontalAlignment="Left" Margin="21,192,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox Name="tbCity" HorizontalAlignment="Left" Height="23" Margin="159,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="218"/>
+        <Label Content="Количество игроков*" HorizontalAlignment="Left" Margin="21,260,0,0" VerticalAlignment="Top" Width="133"/>
+        <TextBox Name="tbPlayerCount" HorizontalAlignment="Left" Height="23" Margin="159,260,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="218"/>
+        <Label Content="Тренер" HorizontalAlignment="Left" Margin="21,322,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox Name="tbTrainer" HorizontalAlignment="Left" Height="23" Margin="159,322,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="218"/>
+        <Label Content="ID команды*" HorizontalAlignment="Left" Margin="21,61,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox Name="tbCommandID" HorizontalAlignment="Left" Height="23" Margin="159,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="218"/>
+        <TextBlock Name="UncorrectMessage" TextAlignment="Center" Margin="28,407,25,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="92" ScrollViewer.VerticalScrollBarVisibility="Hidden" Foreground="#FFF10F0F"/>
+        <Button Name="SearchButton" Click="ClickSearch" Content="Заполнить по ID" HorizontalAlignment="Left" Margin="21,372,0,0" VerticalAlignment="Top" Width="105"/>
+    </Grid>
+</Window>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Lab3.Airplane" BaseTypeListCollapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIGAAAAAAIMAAAQAACAAAAAAAAAAFAAAAIEAIAACAA=</HashCode>
+      <FileName>CompositeClasses\Airplane.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Lab3.BusinessClass">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAACAA=</HashCode>
+      <FileName>CompositeClasses\BusinessClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.EconomyClass">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAACAA=</HashCode>
+      <FileName>CompositeClasses\EconomyClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.FirstClass">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAACAA=</HashCode>
+      <FileName>CompositeClasses\FirstClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.ComfortСlass">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParentClassesAndInterfaces\ComfortСlass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Passenger" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgICAAAAAAAAAABQAAAAAAAAAAAAAEAAAAAAAAAACAA=</HashCode>
+      <FileName>Primitives\Passenger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Lab3.Pilot" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgICAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAACAA=</HashCode>
+      <FileName>Primitives\Pilot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Lab3.Stewardess" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgICAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAACAA=</HashCode>
+      <FileName>Primitives\Stewardess.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Lab3.Program">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Lab3.Component">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAACAA=</HashCode>
+      <FileName>ParentClassesAndInterfaces\Component.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

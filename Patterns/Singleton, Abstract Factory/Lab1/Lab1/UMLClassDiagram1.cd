@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Lab1.BoardAnyTransportVehicle">
+    <Position X="6.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BoardAnyTransportVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.BoardBus">
+    <Position X="5.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAQAAAAABAAIAAA=</HashCode>
+      <FileName>BoardBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.BoardTaxi">
+    <Position X="8" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAQAAAAABCAIAAA=</HashCode>
+      <FileName>BoardTaxi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.Bus">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.BusDriver">
+    <Position X="16" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.Driver">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.Passenger">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.Program" Collapsed="true">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.Taxi">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Taxi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.TaxiDriver">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TaxiDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.TransportVehicle">
+    <Position X="11.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>TransportVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

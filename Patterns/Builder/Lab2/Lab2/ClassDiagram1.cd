@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Lab2.Builder">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAQAAAABAAAAAAIAQEQAAAAAAAA=</HashCode>
+      <FileName>Builders\Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.TaxiBuilder">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAQEQAAAAAAAA=</HashCode>
+      <FileName>Builders\TaxiBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BusBuilder">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAQEQAAAAAAAA=</HashCode>
+      <FileName>Builders\BusBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.TaxiDriver">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\TaxiDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Driver">
+    <Position X="12.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BusDriver">
+    <Position X="14.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\BusDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Adult">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passengers\Adult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BenefitRecipient">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passengers\BenefitRecipient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Child">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passengers\Child.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Passenger">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Passengers\Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Bus">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransportVehicles\Bus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Taxi">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransportVehicles\Taxi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.TransportVehicle">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>TransportVehicles\TransportVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Director">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Program">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

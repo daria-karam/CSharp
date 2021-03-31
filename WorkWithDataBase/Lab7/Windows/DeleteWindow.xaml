@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab7.DeleteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7"
+        Closing="WindowClosing"
+        mc:Ignorable="d"
+        Title="DeleteWindow" Height="350" Width="400
+        ">
+    <Grid>
+        <Label Name="titleLabel" HorizontalContentAlignment="Center" Content="Удаление элемента" HorizontalAlignment="Left" Margin="64,36,0,0" VerticalAlignment="Top" Width="286"/>
+        <TextBox Name="delObjID" Margin="187,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" HorizontalAlignment="Left"/>
+        <Label Content="ID элемента*" HorizontalAlignment="Left" Margin="64,98,0,0" VerticalAlignment="Top"/>
+        <Button Content="Удалить" Click="ClickAcceptDelete" HorizontalAlignment="Left" Margin="155,158,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock Name="UncorrectMessage" TextAlignment="Center" Margin="26,189,27,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="112" ScrollViewer.VerticalScrollBarVisibility="Hidden" Foreground="#FFF10F0F"/>
+    </Grid>
+</Window>

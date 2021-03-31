@@ -1,0 +1,25 @@
+﻿<Window x:Class="Lab7.Task3Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7"
+        mc:Ignorable="d"
+        Closing="WindowClosing"
+        Title="Task3Window" Height="500" Width="1000">
+    <Grid>
+        <DataGrid Name="DataTable" HorizontalAlignment="Left" Height="449" Margin="465,10,0,0" VerticalAlignment="Top" Width="517"/>
+        <Button Name="Button1" Click="ClickButton1" Content="Все результаты от 10 до 15" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button Name="Button2" Click="ClickButton2" Content="Все соревнования, начавшиеся после 6/10/2020" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button Name="Button3" Click="ClickButton3" Content="Все команды из Химок и Зеленограда" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button Name="Button4" Click="ClickButton4" Content="Все спортсмены конкретной команды" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top" Width="283"/>
+        <TextBox Name="tb4" HorizontalAlignment="Left" Height="20" Margin="311,174,0,0" TextWrapping="Wrap" Text="ID команды" VerticalAlignment="Top" Width="135"/>
+        <Button Name="Button5" Click="ClickButton5" Content="Все команды конкретного города" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="283"/>
+        <TextBox Name="tb5" HorizontalAlignment="Left" Height="20" Margin="311,225,0,0" TextWrapping="Wrap" Text="Город" VerticalAlignment="Top" Width="135"/>
+        <Button Name="Button6" Click="ClickButton6" Content="Стадионы с вместимостью меньше конкретной" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Width="283"/>
+        <TextBox Name="tb6" HorizontalAlignment="Left" Height="20" Margin="311,275,0,0" TextWrapping="Wrap" Text="Вместимость" VerticalAlignment="Top" Width="135"/>
+        <Button Name="Button7" Click="ClickButton7" Content="Добавить охоту на монстров в виды спорта" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button Name="Button8" Click="ClickButton8" Content="Удалить охоту на монстров из видов спорта" HorizontalAlignment="Left" Margin="10,375,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button Name="Button9" Click="ClickButton9" Content="Заменить охоту на монстров на гвинт" HorizontalAlignment="Left" Margin="10,425,0,0" VerticalAlignment="Top" Width="283"/>
+    </Grid>
+</Window>
