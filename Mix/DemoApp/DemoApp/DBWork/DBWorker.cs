@@ -60,11 +60,10 @@ namespace DemoApp
                 var buses = db.Buses.ToList();
                 var cars = db.Cars.ToList();
 
-                Parallel.ForEach(drivers, driver => driver.SayHello());
-                Parallel.ForEach(buses, bus => bus.Ride());
-                Parallel.ForEach(cars, car => car.Ride());
+                //Parallel.ForEach(drivers, driver => driver.SayHello());
+                //Parallel.ForEach(buses, bus => bus.Ride());
+                //Parallel.ForEach(cars, car => car.Ride());
 
-                /*
                 foreach (Driver driver in drivers)
                 {
                     driver.SayHello();
@@ -77,7 +76,6 @@ namespace DemoApp
                 {
                     car.Ride();
                 }
-                */
             }
         }
 
