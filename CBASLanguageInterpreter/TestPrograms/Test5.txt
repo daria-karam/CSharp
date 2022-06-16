@@ -1,0 +1,13 @@
+abc = 4 + 3 * 4;
+if ( a == b )
+{
+	print abc, "c";
+	x = 45;
+	print 2*x + y;
+}
+else
+{
+	scan b;
+	y = 999 + b;
+	print x + y;
+}

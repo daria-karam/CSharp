@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBASLanguageInterpreter", "CBASLanguageInterpreter\CBASLanguageInterpreter.csproj", "{F18CB339-EC3F-4AEE-8E8F-24725AA28E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpretorUI", "InterpretorUI\InterpretorUI.csproj", "{163DD1BA-4EB6-4D1A-9DDB-C9F1B31FDD6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F18CB339-EC3F-4AEE-8E8F-24725AA28E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18CB339-EC3F-4AEE-8E8F-24725AA28E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18CB339-EC3F-4AEE-8E8F-24725AA28E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18CB339-EC3F-4AEE-8E8F-24725AA28E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163DD1BA-4EB6-4D1A-9DDB-C9F1B31FDD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163DD1BA-4EB6-4D1A-9DDB-C9F1B31FDD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163DD1BA-4EB6-4D1A-9DDB-C9F1B31FDD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163DD1BA-4EB6-4D1A-9DDB-C9F1B31FDD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF545694-4BD0-4D51-86F2-F9AFA976DEBB}
+	EndGlobalSection
+EndGlobal

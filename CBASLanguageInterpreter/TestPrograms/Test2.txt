@@ -1,0 +1,8 @@
+scan z;
+for(x = 1 to 4)
+{
+	for (y = 8 to 10)
+	{
+		print x, y;
+	}
+}

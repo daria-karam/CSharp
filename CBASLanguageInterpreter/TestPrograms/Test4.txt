@@ -1,0 +1,3 @@
+scan abc;
+x=99;
+print 4, abc, x, "hahaha";

@@ -1,0 +1,32 @@
+abc = 4 + 3 * 4;
+
+scan a;
+scan b;
+if ( a == b )
+{
+	print abc, "c";
+	x = 45;
+	print 2*x + y;
+}
+else
+{
+	scan b;
+	y = 999 + b;
+	print x + y;
+	
+	scan c;
+	if (c > 0)
+	{
+		for(x = 0 to c)
+		{
+			for (y = 1 to 3)
+			{
+				print x, y;
+			}
+		}
+	}
+	else
+	{
+		print "hahaha";
+	}
+}

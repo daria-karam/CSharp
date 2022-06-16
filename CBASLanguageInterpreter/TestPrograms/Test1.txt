@@ -1,0 +1,9 @@
+x = 1;
+if (x < 4 - 9)
+{
+	print "true";
+}
+else
+{
+	print "false";
+}
