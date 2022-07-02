@@ -1,0 +1,7 @@
+IF DB_ID('PharmacyDb') IS NULL
+CREATE DATABASE PharmacyDb
+ON
+(
+	FILENAME = N'C:\Users\Public\PharmacyDb.mdf',
+	NAME = 'PharmacyDb'
+);

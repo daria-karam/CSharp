@@ -1,0 +1,35 @@
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE NAME='Products')
+CREATE TABLE Products
+(
+	[Id] [int] PRIMARY KEY IDENTITY(1,1),
+	[Name] [nvarchar](100) NOT NULL,
+);
+
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE NAME='Pharmacies')
+CREATE TABLE Pharmacies
+(
+	[Id] [int] PRIMARY KEY IDENTITY(1,1),
+	[Name] [nvarchar](100) NOT NULL,
+	[Address] [nvarchar](255) NOT NULL,
+	[Phone] [nvarchar](16) NOT NULL,
+);
+
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE NAME='Warehouses')
+CREATE TABLE Warehouses
+(
+	[Id] [int] PRIMARY KEY IDENTITY(1,1),
+	[PharmacyId] [int] NOT NULL,
+	[Name] [nvarchar](100) NOT NULL,
+	FOREIGN KEY (PharmacyId) REFERENCES Pharmacies (Id) ON DELETE CASCADE,
+);
+
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE NAME='Shipments')
+CREATE TABLE Shipments
+(
+	[Id] [int] PRIMARY KEY IDENTITY(1,1),
+	[ProductId] [int] NOT NULL,
+	[WarehouseId] [int] NOT NULL,
+	[Count] [int] NOT NULL CHECK (Count > 0),
+	FOREIGN KEY (ProductId) REFERENCES Products (Id) ON DELETE CASCADE,
+	FOREIGN KEY (WarehouseId) REFERENCES Warehouses (Id) ON DELETE CASCADE,
+);
